@@ -41,9 +41,6 @@ render() {
       </tbody>
     </table> );
     }
-}
-
-
-
+};
  
 export default MoviesTable;
