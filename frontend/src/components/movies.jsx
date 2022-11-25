@@ -7,6 +7,7 @@ import Pagination from './common/pagination';
 import {paginate} from '../utils/paginate';
 import _ from 'lodash';
 
+
 class Movies extends Component {
 	state = {
 		movies: [],
@@ -72,7 +73,8 @@ class Movies extends Component {
 				 onLike={this.handleLike} 
 				 onDelete={this.handleDelete}
 				 sortColumn={sortColumn}
-				 onSort={this.handleSort}/>
+				 onSort={this.handleSort}
+				 />
 				<Pagination 
 				itemsCount={filtered.length} 
 				pageSize={pageSize} 
