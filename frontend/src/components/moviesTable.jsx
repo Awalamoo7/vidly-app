@@ -11,7 +11,7 @@ class MoviesTable extends Component {
         { path: 'dailyRentalRate', label: 'Rate'},
         {key:'delete'},
         {key:'delete'}
-]
+];
 
 render() { 
     const {movies, onLike, onDelete, onSort, sortColumn} = this.props;
