@@ -41,7 +41,7 @@ class Movies extends Component {
 	};
 	handleSort = sortColumn => {
 		this.setState({sortColumn})
-	}
+	};
 
 	
 	render() {
@@ -83,4 +83,5 @@ class Movies extends Component {
 				</div>
 			</div>
 			)}};
+
 export default Movies;
